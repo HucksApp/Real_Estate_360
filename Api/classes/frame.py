@@ -5,7 +5,7 @@ from Api.classes.location import Location
 
 class Frame(Sticher):
 
-    def __init__(self,title: str, image_paths: list[str]) -> None:
+    def __init__(self,title: str, image_paths: str) -> None:
 
         init =image_paths if type(image_paths) is list else None
         super().__init__(init)
